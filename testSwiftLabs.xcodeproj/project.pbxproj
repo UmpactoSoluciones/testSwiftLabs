@@ -100,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				FB7E67711C7F751D00E8E06E /* AppDelegate.swift */,
-				FB7E67731C7F751D00E8E06E /* ViewController.swift */,
-				FB7E67751C7F751D00E8E06E /* Main.storyboard */,
+				FB7E67A51C7F77A000E8E06E /* Models */,
+				FB7E67A41C7F779C00E8E06E /* Controllers */,
+				FB7E67A31C7F779600E8E06E /* Views */,
 				FB7E677B1C7F751D00E8E06E /* Assets.xcassets */,
 				FB7E677D1C7F751D00E8E06E /* LaunchScreen.storyboard */,
 				FB7E67801C7F751D00E8E06E /* Info.plist */,
@@ -126,6 +127,29 @@
 				FB7E67961C7F751D00E8E06E /* Info.plist */,
 			);
 			path = testSwiftLabsUITests;
+			sourceTree = "<group>";
+		};
+		FB7E67A31C7F779600E8E06E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E67751C7F751D00E8E06E /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FB7E67A41C7F779C00E8E06E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FB7E67731C7F751D00E8E06E /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FB7E67A51C7F77A000E8E06E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
